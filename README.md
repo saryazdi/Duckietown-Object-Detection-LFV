@@ -11,8 +11,7 @@ We avoided computing the path by directly estimating our target point.
 
 <h3>Varying Speed and Omega Gain</h3>
 <p align="center">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/gearbox_demo_opt.gif?raw=true
-"/>
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/gearbox_demo_opt.gif"/>
 </p>
 <ul>
   <li>Our robot detects whether it is close to a left turn, a right turn or on a straight path. Turns are detected using statistics of detected lines.</li>
