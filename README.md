@@ -40,9 +40,9 @@ TODO. Information about our captured dataset can be found <a href="https://githu
 <h3>Vehicle Avoidance</h3>
 <div class="row">
   <div class="column">
-    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_opt.gif" alt="Vehicle Avoidance Behind" style="width:100%">
+    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance2_opt.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
+    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short2.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
   </div>
 </div>
