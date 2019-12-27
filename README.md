@@ -129,7 +129,7 @@ We used detectron2. TODO.
     </p>
     </a>
   <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast lane following</a></li>
-  <b>33 tiles in 60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
+  <b>33 tiles</b> in <b>60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
   <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
     <p align="center">
       <img src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
