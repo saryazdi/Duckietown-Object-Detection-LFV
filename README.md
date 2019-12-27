@@ -18,12 +18,17 @@ We avoided the need for finding the path by directly estimating our target point
 </ul>
 <h3>Modified Lane Filter</h3>
 <ul>
-  <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. Especially if there is too much variance in the FPS, this helps us get better line segments (e.g. at turns where the state suddenly changes).</li>
+  <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. Especially if there is too much variance in the FPS, this helped us get better line segments (e.g. at turns where the state suddenly changes).</li>
 </ul>
 <h2>Lane Following with Vehicles</h2>
+<h3>Object Detection</h3>
+We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators. In the end, the image processing object detector somewhat also performed in the real world.
 <h3>Object Detection using Deep Learning</h3>
-    TODO
+TODO
 <h3>Object Detection using Image Processing</h3>
+<ul>
+  <li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li>
+</ul>
 <h3>Modified Ground Projections</h3>
 <h3>Vehicle Avoidance</h3>
 
