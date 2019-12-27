@@ -122,13 +122,13 @@ We used detectron2. TODO.
 <h3>Demo of Results</h3>
 <ul>
   <li><a href="https://youtu.be/mL84DI1Ytk0">Steady lane following</a></li>
-  <a href="https://youtu.be/mL84DI1Ytk0">
+  <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
     <p align="center">
       <img src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
     </p>
     </a>
   <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast lane following</a></li>
-  <a href="https://youtu.be/Kl7DO9rEVqQ">
+  <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
     <p align="center">
       <img src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
     </p>
