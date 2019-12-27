@@ -2,7 +2,7 @@
 <h2>Lane Following</h2>
 We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn about the pure pursuit, you can check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
 <h3>Finding the Target Point</h3>
-We avoided the need for finding the path by directly estimating our target point.
+We avoided computing the path by directly estimating our target point.
 <ul>
   <li>We take the average of the points on the yellow lane, and with some offset to the right, we will have an estimate of our target point.</li>
   <li>If we are not seeing the yellow lane, we will take the average of the points on our white lane, and offset that point to the left to get an estimate of our target point.</li>
