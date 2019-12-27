@@ -118,7 +118,7 @@ We used detectron2. TODO transfer google docs content here.
   
 <a name="vehicleavoidance"/>
 <h3>Vehicle Avoidance</h3>
-<ul><li>If we get closer to a vehicle (which is directly in front of us) than some threshold distance, we stop. We stay still until the obstalce is no longer in front of us within that threshold distance. </li></ul>
+<ul><li>If we get closer to a vehicle (which is directly in front of us) than some threshold distance, we stop. We stay still until the obstalce is no longer in front of us within that threshold distance. In the visualization below, the gray box is the "safety zone" where we stop if an obstacle is within that box.</li></ul>
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
