@@ -138,7 +138,7 @@ We used detectron2. TODO.
   <li><a href="https://youtu.be/XYgBKyo5pQY">Lane following with vehicle avoidance</a></li>
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
     <p align="center">
-      <img src="https://img.youtube.com/vi/XYgBKyo5pQ/0.jpg"/>
+      <img src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
     </p>
     </a>
 </ul>
