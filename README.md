@@ -16,3 +16,8 @@ We use a modified version of pure pursuit controller for lane following which ca
   <li> The duckiebot gradually slows down at turns, while increasing the omega gain (to make nice sharp turns).</li>
   <li> A second order degree polynomial is used for changing the velocity/omega gain. So, after a turn the robot speeds up slowly, giving it enough time to correct its position before going fast. At turns, the robot will slow down faster to ensure safe navigation of the turn.</li>
 </ul>
+<h3>Vehicle Avoidance</h3>
+<h3>Modifying the Baseline Lane Filter</h3>
+<h2>Object Detection</h2>
+<h3>Object Detection using Deep Learning</h3>
+<h3>Object Detection using Image Processing</h3>
