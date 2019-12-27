@@ -90,11 +90,12 @@ We trained a deep learning model for object detection trained on real-world imag
 <ul>
 <a name="dataset"/>
 <li><h4>The Dataset</h4></li>
+  We captured our own real-world dataset from Duckietown, which can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
+We used detectron2. TODO.
 </ul>
-TODO. Information about our captured dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 </li>
 
 <a name="imageprocessing"/>
