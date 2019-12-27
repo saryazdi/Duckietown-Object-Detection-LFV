@@ -1,4 +1,4 @@
-##### Table of Contents  
+<h2>Table of Contents</h2>
 <ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
   <ul>
