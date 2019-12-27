@@ -99,7 +99,7 @@ We annotated our own real-world duckietown object detection dataset and trained 
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
-We used detectron2. TODO.
+We used detectron2. TODO transfer google docs content here.
 </ul>
 </li>
 
