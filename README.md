@@ -1,6 +1,6 @@
-  <div style="text-align:center">
+<p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif" class="center"/>
-  </div>
+</p>
 <h1>Duckietown LFV using Pure Pursuit and Object Detection</h1>
 <h2>Lane Following</h2>
 We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn about the pure pursuit, you can check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
