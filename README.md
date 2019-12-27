@@ -18,7 +18,7 @@ We avoided computing the path by directly estimating our target point.
 </ul>
 <h3>Modified Lane Filter</h3>
 <ul>
-  <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. Especially if there is too much variance in the FPS, this helped us get better line segments (e.g. at turns where the state suddenly changes).</li>
+  <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. This is especially useful if there is too much variance in the FPS and in those cases it helped us get better filtered line segments.</li>
 </ul>
 <h2>Lane Following with Vehicles</h2>
 <h3>Object Detection</h3>
