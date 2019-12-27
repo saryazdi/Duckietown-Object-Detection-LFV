@@ -127,6 +127,11 @@ We used detectron2. TODO.
       <img src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
     </p>
     </a>
-  <li><a href="">Fast lane following</a></li>
+  <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast lane following</a></li>
+  <a href="https://youtu.be/Kl7DO9rEVqQ">
+    <p align="center">
+      <img src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
+    </p>
+    </a>
   <li><a href="">Lane following with vehicles</a></li>
 </ul>
