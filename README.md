@@ -1,11 +1,6 @@
 ##### Table of Contents  
-[Lane Following](#lanefollowing)
-[Lane Following with Vehicles](#lanefollowingvehicles)
-[Headers](#headers)
-[Headers](#headers)
-
-## Headers
-
+[Lane Following](#lanefollowing)    
+[Lane Following with Vehicles](#lanefollowingvehicles)    
 <h1>Duckietown LFV using Pure Pursuit and Object Detection</h1>
 <a name="lanefollowing"/>
 <h2 align="center">Lane Following</h2>
