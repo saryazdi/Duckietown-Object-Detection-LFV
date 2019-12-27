@@ -122,16 +122,26 @@ We used detectron2. TODO.
 <h3>Demo of Results</h3>
 <ul>
   <li><a href="https://youtu.be/mL84DI1Ytk0">Steady lane following</a></li>
+  14 tiles in 30 seconds:
+left turn tiles: 3
+right turn tiles: 1
+straight path tiles: 10
+lane violations: 0
   <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
     <p align="center">
       <img src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
     </p>
     </a>
   <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast lane following</a></li>
+  33 tiles in 60 seconds:
+left turn tiles: 9
+right turn tiles: 3
+straight path tiles: 21
+lane violations: 0
   <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
     <p align="center">
       <img src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
     </p>
     </a>
-  <li><a href="">Lane following with vehicles</a></li>
+  <li><a href="">Lane following with vehicle avoidance</a></li>
 </ul>
