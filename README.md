@@ -17,8 +17,8 @@
   <ul>
     <li><a href="#deeplearning">Object Detection using Deep Learning</a></li>
     <ul>
-      <li><a href="#dataset">Object Detection Dataset</a></li>
-      <li><a href="#model">Object Detection Model</a></li>
+      <li><a href="#dataset">The Dataset</a></li>
+      <li><a href="#model">The Model</a></li>
     </ul>
     <li><a href="#imageprocessing">Object Detection using Image Processing</a></li>
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
@@ -83,10 +83,10 @@ We trained a deep learning model for object detection trained on real-world imag
 <li><h3>Object Detection using Deep Learning</h3>
 <ul>
 <a name="dataset"/>
-<li><h4>Object Detection Dataset</h4></li>
+<li><h4>The Dataset</h4></li>
 
 <a name="model"/>
-<li><h4>Object Detection Model</h4></li>
+<li><h4>The Model</h4></li>
 </ul>
 TODO. Information about our captured dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 </li>
