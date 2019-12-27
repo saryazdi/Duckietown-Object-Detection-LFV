@@ -23,7 +23,7 @@ We avoided computing the path by directly estimating our target point.
 <ul>
   <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. This is especially useful if there is too much variance in the FPS and in those cases it helped us get better filtered line segments at turns (when the state suddenly changes).</li>
 </ul>
-<h2 class="headertekst">Lane Following with Vehicles</h2>
+<h2 align="center">Lane Following with Vehicles</h2>
 <h3>Object Detection</h3>
 We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
 <ol>
