@@ -1,12 +1,12 @@
 ##### Table of Contents  
 <ul>
-  <li>[Lane Following](#lanefollowing)</li>
+  <li><a href="#lanefollowing">Lane Following</a></li>
   <ul>
     <li><a href="#targetpoint">Finding the Target Point</a></li>
-    <li>[Varying Speed and Omega Gain](#varyingspeed)</li>
-    <li>[Modified Lane Filter](#lanefilter)</li>
+    <li><a href="#varyingspeed">Varying Speed and Omega Gain</a></li>
+    <li><a href="#lanefilter">Modified Lane Filter</a></li>
   </ul>
-  <li>[Lane Following with Vehicles](#lanefollowingvehicles)</li>
+  <li><a href="#lanefollowingvehicles">Lane Following with Vehicles</a></li>
   <ul>
   </ul>
 </ul>
