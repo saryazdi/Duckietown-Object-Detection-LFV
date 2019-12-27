@@ -28,7 +28,7 @@ We avoided computing the path by directly estimating our target point.
 We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
 <ol>
 <li><h3>Object Detection using Deep Learning</h3>
-TODO
+TODO. Information about our captured dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 </li>
 <li><h3>Object Detection using Image Processing</h3>
   <p align="center">
