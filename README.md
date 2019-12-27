@@ -46,19 +46,22 @@ We avoided computing the path by directly estimating our target point.
   <li>We take the average of the points on the yellow lane, and with some offset to the right, we will have an estimate of our target point.</li>
   <li>If we are not seeing the yellow lane, we will take the average of the points on our white lane, and offset that point to the left to get an estimate of our target point.</li>
   <li>Additionally, the average direction of the points is also taken into consideration for computing the offset: E.g., if yellow line segments are perpendicular to us, then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
+  <p align="center">
+    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lf_sim.gif"/>
+  </p>
 </ul>
 
 <a name="varyingspeed"/>
 <h3>Varying Speed and Omega Gain</h3>
-<p align="center">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/gearbox_demo_opt.gif"/>
-</p>
 <ul>
   <li>Our robot detects whether it is close to a left turn, a right turn or on a straight path. Turns are detected using statistics of detected lines.</li>
   <li> The duckiebot gradually speeds up on straight paths, while reducing the omega gain (so that the robot corrects less when moving fast to avoid jerky movement).</li>
   <li> The duckiebot gradually slows down at turns, while increasing the omega gain (to make nice sharp turns).</li>
   <li> A second order degree polynomial is used for changing the velocity/omega gain. So, after a turn the robot speeds up slowly, giving it enough time to correct its position before going fast. At turns, the robot will slow down faster to ensure safe navigation of the turn.</li>
 </ul>
+<p align="center">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/gearbox_demo_opt.gif"/>
+</p>
 
 <a name="lanefilter"/>
 <h3>Modified Lane Filter</h3>
@@ -86,10 +89,10 @@ TODO. Information about our captured dataset can be found <a href="https://githu
 
 <a name="imageprocessing"/>
 <li><h3>Object Detection using Image Processing</h3>
+<ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
-<ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
 </ol>
 
 <a name="groundprojections"/>
