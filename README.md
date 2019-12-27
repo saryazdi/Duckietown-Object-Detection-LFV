@@ -49,7 +49,7 @@ We avoided computing the path by directly estimating our target point.
 <ul>
   <li>We offset the points on the yellow lane to the right, and then take the average of them to have an estimate of our target point.</li>
   <li>If we are not seeing the yellow lane, we offset the points on the white lane to the left and then take the average of them to get an estimate of our target point.</li>
-  <li>Additionally, the average direction of the points is also taken into consideration for computing the offset: E.g., if yellow line segments are perpendicular to us (e.g. when facing a turn), then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
+  <li>Additionally, the average direction of the line segments is also taken into consideration for computing the offset: E.g., if yellow line segments are perpendicular to us (like when facing a turn), then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lf_sim.gif"/>
   </p>
@@ -59,7 +59,7 @@ We avoided computing the path by directly estimating our target point.
 <h3>Varying Speed and Omega Gain</h3>
 <ul>
   <li>Our robot detects whether it is close to a left turn, a right turn or on a straight path. Turns are detected using statistics of detected lines.</li>
-  <li> The duckiebot gradually speeds up on straight paths, while reducing the omega gain (so that the robot corrects less when moving fast to avoid jerky movement).</li>
+  <li> The duckiebot gradually speeds up on straight paths, while reducing the omega gain so that the robot corrects less when moving fast (to avoid jerky movement).</li>
   <li> The duckiebot gradually slows down at turns, while increasing the omega gain (to make nice sharp turns).</li>
   <li> A second order degree polynomial is used for changing the velocity/omega gain. So, after a turn the robot speeds up slowly, giving it enough time to correct its position before going fast. At turns, the robot will slow down faster to ensure safe navigation of the turn.</li>
 </ul>
@@ -70,12 +70,12 @@ We avoided computing the path by directly estimating our target point.
 <a name="lanefilter"/>
 <h3>Modified Lane Filter</h3>
 <ul>
-  <li>We <a href="https://github.com/saryazdi/pp-navigation/blob/47a0f058d8cb0f3a88431c4cd5c32a946b86019b/packages/my_lane_filter/include/my_lane_filter/my_lane_filter.py#L163">modified</a> the "<a href="https://github.com/duckietown/dt-core/tree/daffy/packages/lane_filter">lane_filter</a>" package so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. This is especially useful if there is too much variance in the FPS and in those cases it helped us get better filtered line segments at turns (when the state suddenly changes).</li>
+  <li>We <a href="https://github.com/saryazdi/pp-navigation/blob/47a0f058d8cb0f3a88431c4cd5c32a946b86019b/packages/my_lane_filter/include/my_lane_filter/my_lane_filter.py#L163">modified</a> the "<a href="https://github.com/duckietown/dt-core/tree/daffy/packages/lane_filter">lane_filter</a>" package so that at each update step, it computes how much time has passed since the last update, and based on that we scale the variance of the gaussian that is used for smoothing the belief. This is especially useful if there is too much variance in the FPS and in those cases it helped us get better filtered line segments at turns (when the state suddenly changes).</li>
 </ul>
 
 <a name="lanefollowingvehicles">
 <h2>Lane Following with Vehicles</h2>
-We trained a deep learning model for object detection trained on real-world images, however since we also needed an object detector in simulation, we created another object detector using image processing operators. We have yet to get docker to work with the GPU.
+We annotated our own real-world duckietown object detection dataset and trained a deep learning model on it. However, since we also needed an object detector in simulation, we also made an object detector using image processing operators. We have yet to get the GPU to work with docker.
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short2.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
@@ -90,7 +90,7 @@ We trained a deep learning model for object detection trained on real-world imag
 <ul>
 <a name="dataset"/>
 <li><h4>The Dataset</h4></li>
-  We captured our own real-world dataset from Duckietown, which can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
+  We captured our own real-world dataset from Duckietown for detecting Duckiebots, duckies and traffic cones. Our dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
@@ -100,7 +100,7 @@ We used detectron2. TODO.
 
 <a name="imageprocessing"/>
 <li><h3>Image Processing</h3>
-<ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
+<ul><li>We use HSV filtering followed by erosion and dilation, we then find the bounding boxes around the contours. Bounding boxes with a small area are filtered out.</li></ul></li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
