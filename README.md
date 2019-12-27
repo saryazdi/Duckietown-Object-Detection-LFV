@@ -44,9 +44,9 @@ We use a modified version of the pure pursuit controller for lane following whic
 <h3>Finding the Target Point</h3>
 We avoided computing the path by directly estimating our target point.
 <ul>
-  <li>We take the average of the points on the yellow lane, and with some offset to the right, we will have an estimate of our target point.</li>
-  <li>If we are not seeing the yellow lane, we will take the average of the points on our white lane, and offset that point to the left to get an estimate of our target point.</li>
-  <li>Additionally, the average direction of the points is also taken into consideration for computing the offset: E.g., if yellow line segments are perpendicular to us, then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
+  <li>We offset the points on the yellow lane to the right, and then take the average of them to have an estimate of our target point.</li>
+  <li>If we are not seeing the yellow lane, we offset the points on the white lane to the left and then take the average of them to get an estimate of our target point.</li>
+  <li>Additionally, the average direction of the points is also taken into consideration for computing the offset: E.g., if yellow line segments are perpendicular to us (e.g. when facing a turn), then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lf_sim.gif"/>
   </p>
