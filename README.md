@@ -2,7 +2,7 @@
 <ul>
   <li>[Lane Following](#lanefollowing)</li>
   <ul>
-    <li>[Finding the Target Point](#targetpoint)</li>
+    <li><a href="#targetpoint">Finding the Target Point</a></li>
     <li>[Varying Speed and Omega Gain](#varyingspeed)</li>
     <li>[Modified Lane Filter](#lanefilter)</li>
   </ul>
@@ -10,6 +10,7 @@
   <ul>
   </ul>
 </ul>
+
 <h1>Duckietown LFV using Pure Pursuit and Object Detection</h1>
 <a name="lanefollowing"/>
 <h2 align="center">Lane Following</h2>
