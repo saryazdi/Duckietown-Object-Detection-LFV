@@ -30,10 +30,10 @@
 <h2>Quick Start</h2>
 <ul>
   <a name="simulation"/>
-  <li>Run in Simulation</li>
+  <li><h3>Run in Simulation</h3></li>
   
   <a name="hardware"/>
-  <li>Run on Hardware</li>
+  <li><h3>Run on Hardware</h3></li>
 </ul>
 
 <a name="lanefollowing"/>
