@@ -24,6 +24,7 @@
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
+  <li><a href="#demo">Demo of Results</a></li>
 </ul>
 
 <a name="quickstart"/>
@@ -106,3 +107,6 @@ TODO. Information about our captured dataset can be found <a href="https://githu
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
+
+<a name="demo"/>
+<h3>Demo of Results</h3>
