@@ -28,7 +28,7 @@ We trained a deep learning model for object detection trained on real logs, howe
 TODO
 </li>
 <li><h3>Object Detection using Image Processing</h3>
-  ![](gifs/sim_detection_duckiebot.gif)
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
 <ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
 </ol>
 <h3>Modified Ground Projections</h3>
