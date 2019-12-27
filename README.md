@@ -10,11 +10,19 @@
   </ul>
   <li><a href="#lanefollowingvehicles">Lane Following with Vehicles</a></li>
   <ul>
+    <li><a href="#deeplearning">Object Detection using Deep Learning</a></li>
+    <ul>
+      <li><a href="#dataset">Object Detection Dataset</a></li>
+      <li><a href="#model">Object Detection Model</a></li>
+    </ul>
+    <li><a href="#imageprocessing">Object Detection using Image Processing</a></li>
+    <li><a href="#groundprojections">Modified Ground Projections</a></li>
+    <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
 </ul>
-
+<a href="#"></a>
 <a name="lanefollowing"/>
-<h2 align="center">Lane Following</h2>
+<h2>Lane Following</h2>
 We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn more about the pure pursuit controller, check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
 <a name="targetpoint"/>
 <h3>Finding the Target Point</h3>
@@ -44,20 +52,35 @@ We avoided computing the path by directly estimating our target point.
 </ul>
 
 <a name="lanefollowingvehicles">
-<h2 align="center">Lane Following with Vehicles</h2>
-<h3>Object Detection</h3>
-We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
+<h2>Lane Following with Vehicles</h2>
+
+We trained a deep learning model for object detection trained on real-world images, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
 <ol>
+
+<a name="deeplearning"/>
 <li><h3>Object Detection using Deep Learning</h3>
+<ul>
+<a name="dataset"/>
+<li><h4>Object Detection Dataset</h4></li>
+
+<a name="model"/>
+<li><h4>Object Detection Model</h4></li>
+</ul>
 TODO. Information about our captured dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 </li>
+
+<a name="imageprocessing"/>
 <li><h3>Object Detection using Image Processing</h3>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
 <ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
 </ol>
+
+<a name="groundprojections"/>
 <h3>Modified Ground Projections</h3>
+  
+<a name="vehicleavoidance"/>
 <h3>Vehicle Avoidance</h3>
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
