@@ -15,12 +15,15 @@
   </ul>
   <li><a href="#lanefollowingvehicles">Lane Following with Vehicles</a></li>
   <ul>
-    <li><a href="#deeplearning">Object Detection using Deep Learning</a></li>
-    <ul>
-      <li><a href="#dataset">The Dataset</a></li>
-      <li><a href="#model">The Model</a></li>
-    </ul>
-    <li><a href="#imageprocessing">Object Detection using Image Processing</a></li>
+    <li><a href="#objectdetection">Object Detection</a></li>
+    <ol>
+      <li><a href="#deeplearning">Deep Learning</a></li>
+      <ul>
+        <li><a href="#dataset">The Dataset</a></li>
+        <li><a href="#model">The Model</a></li>
+      </ul>
+      <li><a href="#imageprocessing">Image Processing</a></li>
+     </ol>
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
@@ -77,10 +80,13 @@ We trained a deep learning model for object detection trained on real-world imag
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short2.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
 </p>
-<ol>
+
+<a name="object detection"/>
+<h3>Object Detection</h3>
 
 <a name="deeplearning"/>
-<li><h3>Object Detection using Deep Learning</h3>
+<ol>
+<li><h3>Deep Learning</h3>
 <ul>
 <a name="dataset"/>
 <li><h4>The Dataset</h4></li>
@@ -92,7 +98,7 @@ TODO. Information about our captured dataset can be found <a href="https://githu
 </li>
 
 <a name="imageprocessing"/>
-<li><h3>Object Detection using Image Processing</h3>
+<li><h3>Image Processing</h3>
 <ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
