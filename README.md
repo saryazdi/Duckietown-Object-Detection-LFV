@@ -10,6 +10,7 @@ We avoided computing the path by directly estimating our target point.
 </ul>
 
 <h3>Varying Speed and Omega Gain</h3>
+![](https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/gearbox_demo.gif)
 <ul>
   <li>Our robot detects whether it is close to a left turn, a right turn or on a straight path. Turns are detected using statistics of detected lines.</li>
   <li> The duckiebot gradually speeds up on straight paths, while reducing the omega gain (so that the robot corrects less when moving fast to avoid jerky movement).</li>
