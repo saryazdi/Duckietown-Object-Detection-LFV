@@ -29,7 +29,7 @@ TODO
 </li>
 <li><h3>Object Detection using Image Processing</h3>
   <p class="aligncenter">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif" height="170"/>
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif" height="140"/>
   </p>
 <ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
 </ol>
