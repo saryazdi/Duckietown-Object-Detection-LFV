@@ -2,6 +2,11 @@
 
 <h2>Table of Contents</h2>
 <ul>
+  <li><a href="#quickstart">Quick Start</a></li>
+  <ul>
+    <li><a href="#simulation">Run in Simulation</a></li>
+    <li><a href="#hardware">Run on Hardware</a></li>
+  </ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
   <ul>
     <li><a href="#targetpoint">Finding the Target Point</a></li>
@@ -20,7 +25,17 @@
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
 </ul>
-<a href="#"></a>
+
+<a name="quickstart"/>
+<h2>Quick Start</h2>
+<ul>
+  <a name="simulation"/>
+  <li>Run in Simulation</li>
+  
+  <a name="hardware"/>
+  <li>Run on Hardware</li>
+</ul>
+
 <a name="lanefollowing"/>
 <h2>Lane Following</h2>
 We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn more about the pure pursuit controller, check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
