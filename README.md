@@ -1,8 +1,8 @@
 <h1>Duckietown LFV using Pure Pursuit and Object Detection</h1>
-<h2>Controller: Pure Pursuit (modified)</h2>
+<h2>Lane Following</h2>
 We use a modified version of pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn about the pure pursuit, you can check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
 <h3>Finding the Target Point</h3>
-- One of the biggest challenges here is getting the path from our input image. We avoided finding the path by directly estimating our target point:
+We avoided the need for finding the path by directly estimating our target point.
 <ul>
   <li>We take the average of the points on the yellow lane, and with some offset to the right, we will have an estimate of our target point.</li>
   <li>If we are not seeing the yellow lane, we will take the average of the points on our white lane, and offset that point to the left to get an estimate of our target point.</li>
@@ -16,8 +16,14 @@ We use a modified version of pure pursuit controller for lane following which ca
   <li> The duckiebot gradually slows down at turns, while increasing the omega gain (to make nice sharp turns).</li>
   <li> A second order degree polynomial is used for changing the velocity/omega gain. So, after a turn the robot speeds up slowly, giving it enough time to correct its position before going fast. At turns, the robot will slow down faster to ensure safe navigation of the turn.</li>
 </ul>
-<h3>Vehicle Avoidance</h3>
-<h3>Modifying the Baseline Lane Filter</h3>
-<h2>Object Detection</h2>
+<h3>Modified Lane Filter</h3>
+<ul>
+  <li>The lane filter was modified so that at each update step, it computes how much time has passed since the last update, and based on that scales the variance of the gaussian that we use for smoothing our belief. Especially if there is too much variance in the FPS, this helps us get better line segments (e.g. at turns where the state suddenly changes).<\li>
+</ul>
+<h2>Lane Following with Vehicles</h2>
 <h3>Object Detection using Deep Learning</h3>
+    TODO
 <h3>Object Detection using Image Processing</h3>
+<h3>Modified Ground Projections</h3>
+<h3>Vehicle Avoidance</h3>
+
