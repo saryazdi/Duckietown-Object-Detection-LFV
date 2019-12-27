@@ -22,13 +22,14 @@ We avoided the need for finding the path by directly estimating our target point
 </ul>
 <h2>Lane Following with Vehicles</h2>
 <h3>Object Detection</h3>
-We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators. In the end, the image processing object detector somewhat also performed in the real world.
-<h3>Object Detection using Deep Learning</h3>
+We trained a deep learning model for object detection trained on real logs, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
+<ol>
+<li><h3>Object Detection using Deep Learning</h3>
 TODO
-<h3>Object Detection using Image Processing</h3>
-<ul>
-  <li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li>
-</ul>
+</li>
+<li><h3>Object Detection using Image Processing</h3>
+<ul><li>We use HSV filtering and then find the bounding boxes around the contours. We then filter out bounding boxes with a small area.</li></ul></li>
+</ol>
 <h3>Modified Ground Projections</h3>
 <h3>Vehicle Avoidance</h3>
 
