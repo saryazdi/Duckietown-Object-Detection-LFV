@@ -71,11 +71,11 @@ We avoided computing the path by directly estimating our target point.
 
 <a name="lanefollowingvehicles">
 <h2>Lane Following with Vehicles</h2>
+We trained a deep learning model for object detection trained on real-world images, however since we also needed an object detector in simulation, we created another object detector using image processing operators. We have yet to get docker to work with the GPU.
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short2.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
 </p>
-We trained a deep learning model for object detection trained on real-world images, however since we also needed an object detector in simulation, we created another object detector using image processing operators.
 <ol>
 
 <a name="deeplearning"/>
