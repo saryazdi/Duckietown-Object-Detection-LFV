@@ -90,7 +90,7 @@ We annotated our own real-world duckietown object detection dataset and trained 
 <ul>
 <a name="dataset"/>
 <li><h4>The Dataset</h4></li>
-  We captured our own real-world dataset from Duckietown for detecting Duckiebots, duckies and traffic cones. Our dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
+  We captured and annotated our own real-world dataset from Duckietown for detecting duckiebots, duckies and traffic cones. Information regarding our dataset can be found <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/ObjectDetectionDataset.md">here</a>.
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
