@@ -113,7 +113,7 @@ We avoided computing the path by directly estimating our target point.
 <a name="lanefilter"/>
 <h3>Modified Lane Filter</h3>
 <ul>
-  <li>We <a href="https://github.com/saryazdi/pp-navigation/blob/47a0f058d8cb0f3a88431c4cd5c32a946b86019b/packages/my_lane_filter/include/my_lane_filter/my_lane_filter.py#L163">modified</a> the "<a href="https://github.com/duckietown/dt-core/tree/daffy/packages/lane_filter">lane_filter</a>" package so that at each update step, it computes how much time has passed since the last update, and based on that we scale the variance of the gaussian that is used for smoothing the belief. This is especially useful if there is too much variance in the FPS and in those cases it helped us get better filtered line segments at turns (when the state suddenly changes).</li>
+  <li>We <a href="https://github.com/saryazdi/pp-navigation/blob/47a0f058d8cb0f3a88431c4cd5c32a946b86019b/packages/my_lane_filter/include/my_lane_filter/my_lane_filter.py#L163">modified</a> the "<a href="https://github.com/duckietown/dt-core/tree/daffy/packages/lane_filter">lane_filter</a>" package so that at each update step, it computes how much time has passed since the last update, and based on that we scale the variance of the gaussian that is used for smoothing the belief. This is especially useful if there is too much variance in the FPS: Not scaling the covariance when the FPS has a high variance would cause us to either smoothen the belief too much or too little.</li>
 </ul>
 
 <a name="lanefollowingvehicles">
