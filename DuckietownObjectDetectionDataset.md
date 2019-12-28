@@ -66,9 +66,9 @@ This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. A
 
 ## Data Collection Procedure
 
-In duckietown, we see various different objects. In this work, we first identify most prominent objects. In the duckietown, we see duckies, duckiebots and cones on the road. To achieve this, we find useful logs containing all these obstacles. We preprocess these logs to get diverse set of frames with multiple obstacles. 
+In this work, we first identify most prominent objects. In Duckietown, we see duckies, duckiebots and traffic cones on the road. To begin our data collection procedure, we find all useful logs from <a href="http://logs.duckietown.org/">the Duckietown Logs Database</a> containing all these obstacles. We then preprocess these logs to get diverse set of frames with multiple obstacles. 
 
-In these logs, there are older duckiebots with a lot of wiring around it. While new duckiebots are much cleaner with only battery visible. This made these both duckiebots visually very different from each other. Hence, to ensure robust detections, we additionally collect dataset for new duckiebots as well. In the final dataset, we have merged old and new duckiebots to ensure that we can detect both of them. 
+In these logs, there are videos of older versions of duckiebots with lots of wirings on them. However, new duckiebots are much cleaner with only the battery visible. To ensure robust detections, we needed to capture this intra-class variation. Thus we collected our own logs containing the new duckiebots. In the final dataset, we have merged old and new duckiebots to ensure that we can detect both variations. 
 
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/datacollection.gif" alt="data collection">
