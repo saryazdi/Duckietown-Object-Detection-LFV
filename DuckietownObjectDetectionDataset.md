@@ -1,4 +1,6 @@
 # The Duckietown Object Detection Dataset
+
+## Download
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
 ## Overview
@@ -38,6 +40,4 @@ In this work, we first identify most prominent objects. In the duckietown, we se
 ## Data Collection Procedure
 
 ## Data Annotation Procedure
-
-## Download
 
