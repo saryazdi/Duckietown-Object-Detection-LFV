@@ -1,15 +1,15 @@
-<h1>The Duckietown Object Detection Dataset</h1>
+# The Duckietown Object Detection Dataset
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
-
+## Overview
 <table>
       <tr><td>Number of images</td><td>1956</td></tr>
       <tr><td>Number of object categories</td><td>3</td></tr>
       <tr><td>Number of objects annotated</td><td>5068</td></tr>
 </table>
 
-<h2>Category Details</h2>
-<h3>Duckies</h3>
+## Category Details
+### Duckies
 <table>
       <tr><td>Category name</td><td>duckie</td></tr>
       <tr><td>Number of instances</td><td>2570</td></tr>
@@ -17,7 +17,7 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
 </table>
 
 
-<h3>Cones</h3>
+### Cones
 <table>
       <tr><td>Category name</td><td>cone</td></tr>
       <tr><td>Number of instances</td><td>372</td></tr>
@@ -25,7 +25,7 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
 </table>
 
 
-<h3>Duckiebots</h3>
+### Duckiebots
 <table>
       <tr><td>Category name</td><td>duckiebot</td></tr>
       <tr><td>Number of instances</td><td>2126</td></tr>
