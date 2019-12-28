@@ -93,6 +93,7 @@ We avoided computing the path by directly estimating our target point.
   <li>We offset the points on the ground-projected yellow lane to the right, and then take the average of them to have an estimate of our target point.</li>
   <li>If we are not seeing the yellow lane, we offset the points on the ground-projected white lane to the left and then take the average of them to get an estimate of our target point.</li>
   <li>Additionally, the average direction of the line segments is also taken into consideration for computing the offset: E.g., if the ground-projected yellow line segments are perpendicular to us (like when facing a turn), then the target point would not just be to the right of the average of the yellow points, but also downwards (towards the robot).</li>
+  <li>In the visualization below, we can see the ground projected and shifted line segments. The cyan point is our robot's position, and the green point is the target (follow) point.</li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lf_sim.gif"/>
   </p>
