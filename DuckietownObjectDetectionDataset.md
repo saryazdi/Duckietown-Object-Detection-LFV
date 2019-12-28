@@ -35,8 +35,7 @@ In this work, we first identify most prominent objects. In the duckietown, we se
 ## Category Details
 <ol>
 <a name="cones"/>
-<li>
-### Traffic Cones
+<li><h3>Traffic Cones</h3>
 <table>
       <tr><td>Category name</td><td>cone</td></tr>
       <tr><td>Number of instances</td><td>372</td></tr>
@@ -44,8 +43,7 @@ In this work, we first identify most prominent objects. In the duckietown, we se
 </table></li>
 
 <a name="duckies"/>
-<li>
-### Duckies
+<li><h3>Duckies</h3>
 <table>
       <tr><td>Category name</td><td>duckie</td></tr>
       <tr><td>Number of instances</td><td>2570</td></tr>
@@ -53,8 +51,7 @@ In this work, we first identify most prominent objects. In the duckietown, we se
 </table></li>
 
 <a name="duckiebots"/>
-<li>
-      ### Duckiebots
+<li><h3>Duckiebots</h3>
 <table>
       <tr><td>Category name</td><td>duckiebot</td></tr>
       <tr><td>Number of instances</td><td>2126</td></tr>
