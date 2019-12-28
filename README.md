@@ -146,7 +146,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 <li><h3>Image Processing</h3>
 <ul><li>We use HSV filtering followed by erosion and dilation, we then find the bounding boxes around the contours. Bounding boxes with a small area are filtered out.</li></ul></li>
   <p align="center">
-    <img height="220" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
+    <img width="550" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
 </ol>
 
@@ -159,7 +159,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 <h3>Vehicle Avoidance</h3>
 <ul><li>If we get closer to a vehicle (which is directly in front of us) than some threshold distance, we stop. We stay still until the obstalce is no longer in front of us within that threshold distance. In the visualization below, the gray box is the "safety zone" where we stop if an obstacle is within that box.</li></ul>
 <p align="center">
-  <img height="220" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
+  <img width="550" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
 
 <a name="demo"/>
@@ -171,7 +171,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
   <b>14 tiles</b> in <b>30 seconds</b>: 3 left turn tiles, 1 right turn tile, 10 straight path tiles, 0 lane violations
   <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
     <p align="center">
-      <img height="220" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
+      <img height="200" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
     </p>
     </a>
     
@@ -180,7 +180,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
   <b>33 tiles</b> in <b>60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
   <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
     <p align="center">
-      <img height="220" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
+      <img height="200" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
     </p>
     </a>
     
@@ -188,7 +188,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
   <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
     <p align="center">
-      <img height="220" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
+      <img height="200" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
     </p>
     </a>
    
@@ -196,7 +196,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
   <li><a href="https://www.youtube.com/watch?v=3jD02dxL6gg">Faster RCNN Object Detection</a></li>
   <a href="https://youtu.be/3jD02dxL6gg" target="_blank">
     <p align="center">
-      <img height="220" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
+      <img height="200" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
     </p>
     </a>
 </ul>
