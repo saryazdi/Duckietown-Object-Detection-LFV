@@ -25,7 +25,7 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
 <a name="overview"/>
 
 ## Overview
-This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. All of the dataset images were captured with duckiebot cameras. We use a mixture of images from the <a href="http://logs.duckietown.org/">>duckietown logs</a> and our own captured logs. Images were captured in different lighting conditions, with different versions of duckiebot models, and on different duckietown maps. Below are some statistics of our dataset:
+This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. All of the dataset images were captured with duckiebot cameras. We use a combination of images from the <a href="http://logs.duckietown.org/">duckietown logs</a> and our own captured logs. Images were captured in different lighting conditions, with different versions of duckiebot models, and on different duckietown maps. Below are some statistics of our dataset:
 <table>
       <tr><td>Number of images</td><td>1956</td></tr>
       <tr><td>Number of object categories</td><td>3</td></tr>
