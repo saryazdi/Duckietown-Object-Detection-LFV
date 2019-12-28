@@ -1,6 +1,8 @@
 # The Duckietown Object Detection Dataset
-<h2>Table of Contents</h2>
-
+## Table of Contents
+<p align="right">
+  <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Vehicle Avoidance Behind" width="220"></a>
+</p>
 <ul>
       <li><a href="#download">Download</a></li>
       <li><a href="#overview">Overview</a></li>
@@ -16,7 +18,7 @@
 
 
 <a name="download"/>
-<h2>Download</h2>
+## Download
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
 <a name="overview"/>
