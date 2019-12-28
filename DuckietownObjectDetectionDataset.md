@@ -25,7 +25,7 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
 <a name="overview"/>
 
 ## Overview
-In this work, we first identify most prominent objects. In the duckietown, we see duckies, duckiebots and cones on the road. To achieve this, we find useful logs containing all these obstacles. We preprocess these logs to get diverse set of frames with multiple obstacles. 
+This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. All of the dataset images were captures with duckiebot cameras. Some statistics of our dataset can be found below.
 <table>
       <tr><td>Number of images</td><td>1956</td></tr>
       <tr><td>Number of object categories</td><td>3</td></tr>
