@@ -35,6 +35,7 @@
   <li><a href="#steady">Steady Lane Following</a></li>
   <li><a href="#fast">Fast Lane Following</a></li>
   <li><a href="#lfv">Lane Following with Vehicle Avoidance</a></li>
+  <li><a href="#trainedmodel">Faster RCNN Object Detection</a></li>
   </ul>
 </ul>
 
@@ -136,7 +137,7 @@ We use Faster RCNN architecture with feature pyramid network. Faster RCNN is a p
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/model_architecture.png" height="220"/>
 </p>
 
-In this work, we use <a href="https://github.com/facebookresearch/detectron2">detectron2</a>, a state of the art object detection framework from Facebook AI research. We train the model for 15000 iterations over the dataset with a learning rate of 0.015. We use Resnet 50 backbone for the model. Below we can see some qualitative results of the object detection. 
+In this work, we use <a href="https://github.com/facebookresearch/detectron2">detectron2</a>, a state of the art object detection framework from Facebook AI research. We train the model for 15000 iterations over the dataset with a learning rate of 0.015. We use Resnet 50 backbone for the model. Below we can see some qualitative results of the object detection, and you can see a video of our object detector in action <a href="#trainedmodel">here in the demos section</a>.
 
 </ul>
 </li>
