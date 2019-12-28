@@ -146,7 +146,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 <li><h3>Image Processing</h3>
 <ul><li>We use HSV filtering followed by erosion and dilation, we then find the bounding boxes around the contours. Bounding boxes with a small area are filtered out.</li></ul></li>
   <p align="center">
-    <img width="550" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
+    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
 </ol>
 
@@ -159,7 +159,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 <h3>Vehicle Avoidance</h3>
 <ul><li>If we get closer to a vehicle (which is directly in front of us) than some threshold distance, we stop. We stay still until the obstalce is no longer in front of us within that threshold distance. In the visualization below, the gray box is the "safety zone" where we stop if an obstacle is within that box.</li></ul>
 <p align="center">
-  <img width="550" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
 
 <a name="demo"/>
