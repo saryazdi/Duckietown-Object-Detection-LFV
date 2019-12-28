@@ -42,12 +42,12 @@
   <li><h3>Run in Simulation</h3></li>
   Clone the repository:
   
-        $ cd [localdir]/catkin_ws/src
+        $ cd <local-duckietown-dir>/catkin_ws/src
         $ git clone https://github.com/saryazdi/pp-navigation.git
-        $ cd ../..
         
   Start docker container:
   
+        $ cd ../..
         $ docker-compose up
         
    Build and source the package:
