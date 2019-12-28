@@ -5,6 +5,7 @@
   <li><a href="#quickstart">Quick Start</a></li>
   <ul>
     <li><a href="#simulation">Run in Simulation</a></li>
+    
         $ cd [localdir]/catkin_ws/src
         $ git clone [mypackagerepo]
         $ cd ../..
@@ -12,6 +13,8 @@
         $ catkin build --workspace catkin_ws
         $ source catkin_ws/devel/setup.bash
         $ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
+        
+        
     <li><a href="#hardware">Run on Hardware</a></li>
   </ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
