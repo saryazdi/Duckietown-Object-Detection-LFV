@@ -2,7 +2,7 @@
 ## Table of Contents
 <p align="right">
   <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Duckietown Logo" width="150"></a>
-  <a href="https://www.duckietown.org/"><img align="right" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="220"></a>
+  <a href="https://www.duckietown.org/"><img align="right" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="280"></a>
 </p>
 <ul>
       <li><a href="#download">Download</a></li>
