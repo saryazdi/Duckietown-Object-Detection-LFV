@@ -16,10 +16,14 @@
       <li><a href="#annotation">Data Annotation Procedure</a></li>
 </ul>
 
+
+<a name="download"/>
+
 ## Download
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
 <a name="overview"/>
+
 ## Overview
 In this work, we first identify most prominent objects. In the duckietown, we see duckies, duckiebots and cones on the road. To achieve this, we find useful logs containing all these obstacles. We preprocess these logs to get diverse set of frames with multiple obstacles. 
 <table>
@@ -59,8 +63,10 @@ In this work, we first identify most prominent objects. In the duckietown, we se
 </table></li>
 </ol>
 <a name="collection"/>
+
 ## Data Collection Procedure
 
 <a name="annotation"/>
+
 ## Data Annotation Procedure
 
