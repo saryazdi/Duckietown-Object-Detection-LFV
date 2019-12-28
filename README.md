@@ -62,7 +62,7 @@
   
   <a name="hardware"/>
   <li><h3>Run on Hardware</h3></li>
-  [TODO: INSERT ACTUAL (CORRECT) IMAGE HERE]
+  [TODO: INSERT ACTUAL (CORRECT) DOCKERHUB IMAGE]
   
   With your computer and the duckiebot connected to the same network, run the following command on your computer to pull the image onto the duckiebot:
   
