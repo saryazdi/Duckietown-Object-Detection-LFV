@@ -70,6 +70,9 @@ In duckietown, we see various different objects. In this work, we first identify
 
 In these logs, there are older duckiebots with a lot of wiring around it. While new duckiebots are much cleaner with only battery visible. This made these both duckiebots visually very different from each other. Hence, to ensure robust detections, we additionally collect dataset for new duckiebots as well. In the final dataset, we have merged old and new duckiebots to ensure that we can detect both of them. 
 
+<p align="center">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/datacollection.gif" alt="data collection">
+</p>
 
 <a name="annotation"/>
 
