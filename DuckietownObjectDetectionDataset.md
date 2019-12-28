@@ -12,7 +12,7 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
 <h3>Duckies</h3>
 <table>
       <tr><td>Category name</td><td>duckie</td></tr>
-      <tr><td>Number of instances</td>2570<td></td></tr>
+      <tr><td>Number of instances</td><td>2570</td></tr>
       <tr><td>Category id</td><td>2</td></tr>
 </table>
 
