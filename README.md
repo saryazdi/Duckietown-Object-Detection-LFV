@@ -139,7 +139,7 @@ We use Faster RCNN architecture with feature pyramid network. Faster RCNN is a p
 
 In this work, we use <a href="https://github.com/facebookresearch/detectron2">detectron2</a>, a state of the art object detection framework from Facebook AI research. We train the model for 15000 iterations over the dataset with a learning rate of 0.015. We use Resnet 50 backbone for the model. Below are some qualitative results of the object detector, and you can find a video of our object detector in action <a href="#trainedmodel">here in the demos section</a>.
 <p align="center">
-    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/predictions/00018.png" width="370"/>
+    <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/fasterRCNN.gif" width="370"/>
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/predictions/00025.png" width="370"/>
 </p>
 </ul>
