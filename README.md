@@ -1,6 +1,6 @@
 <h1>Duckietown LFV using Pure Pursuit and Object Detection</h1>
 <p align="right">
-  <img src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Vehicle Avoidance Behind" style="width:100%">
+  <a hreg="https://www.duckietown.org/"><img src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Vehicle Avoidance Behind" style="width:100%"></a>
 </p>
 <h2>Table of Contents</h2>
 <ul>
