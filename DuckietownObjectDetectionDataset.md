@@ -18,7 +18,7 @@
 
 
 <a name="download"/>
-## Download
+<h2>Download</h2>
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
 <a name="overview"/>
