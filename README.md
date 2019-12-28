@@ -137,7 +137,7 @@ We annotated our own real-world duckietown object detection dataset and trained 
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
-We use Faster RCNN architecture with feature pyramid network. Faster RCNN is a popular 2 stage object detection pipeline where first stage is used to get the potential object regions in an image. First stage involves feature map extraction from a backbone network and the usage of region proposal network to find potential object regions. Once we find the object regions, we feed it through the second stage of the network. In the second stage, we do bounding box regression and object classification. In this architecture. We also use Feature Pyramid Network (FPN). FPN enables us to detect objects at various scales and sizes. We extract features at multiple different resolutions and fuse them to get a rich set of features before feeding it to the region proposal network to find final region proposals. FPNs are more effective at detecting small objects. We use the above object detection dataset to train the network. Below is the architecture of Faster RCNN.
+For object detection with deep learning, we use Faster RCNN architecture with feature pyramid network. Faster RCNN is a popular 2 stage object detection pipeline where first stage is used to get the potential object regions in an image. First stage involves feature map extraction from a backbone network and the usage of region proposal network to find potential object regions. Once we find the object regions, we feed it through the second stage of the network. In the second stage, we do bounding box regression and object classification. In this architecture. We also use Feature Pyramid Network (FPN). FPN enables us to detect objects at various scales and sizes. We extract features at multiple different resolutions and fuse them to get a rich set of features before feeding it to the region proposal network to find final region proposals. FPNs are more effective at detecting small objects. We use the above object detection dataset to train the network. Below is the architecture of Faster RCNN.
 <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/model_architecture.png" height="220"/>
 </p>
@@ -152,7 +152,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 
 <a name="imageprocessing"/>
 <li><h3>Image Processing</h3>
-<ul><li>We use HSV filtering followed by erosion and dilation, we then find the bounding boxes around the contours. Bounding boxes with a small area are filtered out.</li></ul></li>
+<ul><li>For object detection using image processing, we use HSV filtering followed by erosion and dilation, we then find the bounding boxes around the contours. Bounding boxes with a small area are filtered out.</li></ul></li>
   <p align="center">
     <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/sim_detection_duckiebot.gif"/>
   </p>
