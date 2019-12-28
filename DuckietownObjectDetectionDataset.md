@@ -1,6 +1,10 @@
 <h1>The Duckietown Object Detection Dataset</h1>
 This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
+| ------------- | ------------- |
+| Number of images  | 1956  |
+| Number of object categories  | 3  |
+| Number of objects annotated  | 5068  |
 Total number of images: 1956
 Number of object categories: 3
 Number of objects annotated: 5068
