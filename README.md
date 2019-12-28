@@ -45,7 +45,7 @@
 <ul>
   <a name="preliminaries"/>
   <li><h3>Preliminaries</h3></li>
-  The quick start assumes that you have followed all of the steps in the duckiebook manual up to "<a href="https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demo_lane_following.html">Unit E-12: Lane following</a>".
+  The quick start assumes that you have followed all of the steps in the <a href="https://docs.duckietown.org/daffy/opmanual_duckiebot/out/index.html">Duckiebook operational manual</a> up to "<a href="https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demo_lane_following.html">Unit E-12: Lane following</a>".
   
   <a name="simulation"/>
   <li><h3>Run in Simulation</h3></li>
