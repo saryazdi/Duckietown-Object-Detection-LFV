@@ -40,13 +40,23 @@
 <ul>
   <a name="simulation"/>
   <li><h3>Run in Simulation</h3></li>
+  Clone the repository:
   
         $ cd [localdir]/catkin_ws/src
-        $ git clone [mypackagerepo]
+        $ git clone https://github.com/saryazdi/pp-navigation.git
         $ cd ../..
+        
+  Start docker container:
+  
         $ docker-compose up
+        
+   Build and source the package:
+   
         $ catkin build --workspace catkin_ws
         $ source catkin_ws/devel/setup.bash
+   
+   Run the code:
+   
         $ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
   
   
