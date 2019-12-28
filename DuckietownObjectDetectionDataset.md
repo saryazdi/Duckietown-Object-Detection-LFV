@@ -14,8 +14,8 @@
       </ol>
       <li><a href="#collection">Data Collection Procedure</a></li>
       <li><a href="#annotation">Data Annotation Procedure</a></li>
-      
 </ul>
+
 
 <a name="download"/>
 ## Download
