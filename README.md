@@ -131,7 +131,11 @@ We annotated our own real-world duckietown object detection dataset and trained 
 
 <a name="model"/>
 <li><h4>The Model</h4></li>
-We used detectron2. TODO transfer google docs content here.
+We use Faster RCNN architecture with feature pyramid network. Faster RCNN is a popular 2 stage object detection pipeline where first stage is used to get the potential object regions in an image. First stage involves feature map extraction from a backbone network and the usage of region proposal network to find potential object regions. Once we find the object regions, we feed it through the second stage of the network. In the second stage, we do bounding box regression and object classification. In this architecture. We also use Feature Pyramid Network (FPN). FPN enables us to detect objects at various scales and sizes. We extract features at multiple different resolutions and fuse them to get a rich set of features before feeding it to the region proposal network to find final region proposals. FPNs are more effective at detecting small objects. We use the above object detection dataset to train the network. Below is the architecture of Faster RCNN.
+
+
+In this work, we use <a href="https://github.com/facebookresearch/detectron2">detectron2</a>, a state of the art object detection framework from Facebook AI research. We train the model for 15000 iterations over the dataset with a learning rate of 0.015. We use Resnet 50 backbone for the model. Below we can see some qualitative results of the object detection. 
+
 </ul>
 </li>
 
