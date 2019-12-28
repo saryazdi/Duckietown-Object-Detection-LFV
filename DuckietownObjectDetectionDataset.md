@@ -1,11 +1,8 @@
 # The Duckietown Object Detection Dataset
-<img align="right" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample">
-
 
 ## Table of Contents
 <p align="right">
   <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Duckietown Logo" width="150"></a>
-  <img align="right" src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="280">
 </p>
 <ul>
       <li><a href="#download">Download</a></li>
@@ -35,6 +32,13 @@ This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. A
       <tr><td>Number of object categories</td><td>3</td></tr>
       <tr><td>Number of objects annotated</td><td>5068</td></tr>
 </table>
+
+<p align="center">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="240">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/5.png" alt="Detection Dataset Sample" width="240">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/4.png" alt="Detection Dataset Sample" width="240">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/3.png" alt="Detection Dataset Sample" width="240">
+</p>
 
 <a name="categories"/>
 
