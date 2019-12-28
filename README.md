@@ -42,7 +42,7 @@
   <li><h3>Run in Simulation</h3></li>
   Clone the repository:
   
-      $ cd <local-duckietown-dir>/catkin_ws/src
+      $ cd <LOCAL-DUCKIETOWN-DIRECTORY>/catkin_ws/src
       $ git clone https://github.com/saryazdi/pp-navigation.git
         
   Start docker container:
@@ -62,6 +62,14 @@
   
   <a name="hardware"/>
   <li><h3>Run on Hardware</h3></li>
+  Pull the image onto the duckiebot:
+  
+      $ docker -H <DUCKIEBOT_NAME>.local pull saryazdi/soroush-ros-navigation:v1-arm32v7
+  
+  Run the container:
+  
+      $ dts duckiebot demo --demo_name lfv_start --package_name pure_pursuit_lfv --duckiebot_name <DUCKIEBOT_NAME> --image saryazdi/soroush-ros-navigation:v1-arm32v7
+      
 </ul>
 
 <a name="lanefollowing"/>
