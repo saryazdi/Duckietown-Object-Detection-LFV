@@ -42,22 +42,22 @@
   <li><h3>Run in Simulation</h3></li>
   Clone the repository:
   
-        $ cd <local-duckietown-dir>/catkin_ws/src
-        $ git clone https://github.com/saryazdi/pp-navigation.git
+      $ cd <local-duckietown-dir>/catkin_ws/src
+      $ git clone https://github.com/saryazdi/pp-navigation.git
         
   Start docker container:
   
-        $ cd ../..
-        $ docker-compose up
+      $ cd ../..
+      $ docker-compose up
         
    Build and source the package within the container:
    
-        [DOCKER]$ catkin build --workspace catkin_ws
-        [DOCKER]$ source catkin_ws/devel/setup.bash
+      [CONTAINER]$ catkin build --workspace catkin_ws
+      [CONTAINER]$ source catkin_ws/devel/setup.bash
    
    Run the code within the container:
    
-        [DOCKER]$ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
+      [CONTAINER]$ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
   
   
   <a name="hardware"/>
