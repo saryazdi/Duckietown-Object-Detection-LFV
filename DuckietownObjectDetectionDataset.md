@@ -1,7 +1,7 @@
 # The Duckietown Object Detection Dataset
 <h2>Table of Contents</h2>
 <p align="right">
-  <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Vehicle Avoidance Behind" width="220"></a>
+  <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Vehicle Avoidance Behind" width="220"/></a>
 </p>
 <ul>
       <li><a href="#download">Download</a></li>
