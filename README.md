@@ -62,6 +62,7 @@
   
   <a name="hardware"/>
   <li><h3>Run on Hardware</h3></li>
+  TODO: INSERT ACTUAL (CORRECT) IMAGE HERE
   With your computer and the duckiebot connected to the same network, run the following command on your computer to pull the image onto the duckiebot:
   
       $ docker -H <DUCKIEBOT_NAME>.local pull saryazdi/soroush-ros-navigation:v1-arm32v7
