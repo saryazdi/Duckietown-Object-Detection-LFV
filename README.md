@@ -186,7 +186,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
       <img align="left" height="150" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
     </p>
     </a>
-    
+    <br>
   <a name="lfv"/>
   <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
