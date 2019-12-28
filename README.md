@@ -50,14 +50,14 @@
         $ cd ../..
         $ docker-compose up
         
-   Build and source the package:
+   Build and source the package within the container:
    
-        $ catkin build --workspace catkin_ws
-        $ source catkin_ws/devel/setup.bash
+        [DOCKER]$ catkin build --workspace catkin_ws
+        [DOCKER]$ source catkin_ws/devel/setup.bash
    
-   Run the code:
+   Run the code within the container:
    
-        $ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
+        [DOCKER]$ roslaunch catkin_ws/src/pp-navigation/packages/pure_pursuit_lfv/launch/lfv_start.launch
   
   
   <a name="hardware"/>
