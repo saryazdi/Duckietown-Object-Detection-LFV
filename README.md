@@ -7,6 +7,7 @@
 <ul>
   <li><a href="#quickstart">Quick Start</a></li>
   <ul>
+    <li><a href="#preliminaries">Preliminaries</a></li>
     <li><a href="#simulation">Run in Simulation</a></li>
     <li><a href="#hardware">Run on Hardware</a></li>
   </ul>
@@ -42,6 +43,10 @@
 <a name="quickstart"/>
 <h2>Quick Start</h2>
 <ul>
+  <a name="preliminaries"/>
+  <li><h3>Preliminaries</h3></li>
+  The quick start assumes that you have followed all of the steps in the duckiebook manual up to "<a href="https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demo_lane_following.html">Unit E-12: Lane following</a>".
+  
   <a name="simulation"/>
   <li><h3>Run in Simulation</h3></li>
   Clone the repository:
