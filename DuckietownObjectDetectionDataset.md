@@ -8,29 +8,32 @@ This dataset can be found <a href="https://drive.google.com/drive/folders/1cTBoK
       <tr><td>Number of objects annotated</td><td>5068</td></tr>
 </table>
 
-Total number of images: 1956
-Number of object categories: 3
-Number of objects annotated: 5068
-
-Category details: 
-Duckies:
-Category name: duckie
-Number of instances: 2570
-Category id: 2
+<h2>Category Details</h2>
+<h3>Duckies</h3>
+<table>
+      <tr><td>Category name</td><td>duckie</td></tr>
+      <tr><td>Number of instances</td>2570<td></td></tr>
+      <tr><td>Category id</td><td>2</td></tr>
+</table>
 
 
-Cones: 
-Category name: cone
-Number of instances: 372
-Category id: 1
+<h3>Cones</h3>
+<table>
+      <tr><td>Category name</td><td>cone</td></tr>
+      <tr><td>Number of instances</td><td>372</td></tr>
+      <tr><td>Category id</td><td>1</td></tr>
+</table>
 
 
-Duckiebots:
-Category name: duckiebot
-Number of instances: 2126
-Category id: 3
-Number of older Duckiebot instances: 1419
-Number of newer Duckiebot instances: 707
+<h3>Duckiebots</h3>
+<table>
+      <tr><td>Category name</td><td>duckiebot</td></tr>
+      <tr><td>Number of instances</td><td>2126</td></tr>
+      <tr><td>Category id</td><td>3</td></tr>
+      <tr><td>Number of older Duckiebot instances</td><td>1419</td></tr>
+      <tr><td>Number of newer Duckiebot instances</td><td>707</td></tr>
+</table>
+
 
 In this work, we first identify most prominent objects. In the duckietown, we see duckies, duckiebots and cones on the road. To achieve this, we find useful logs containing all these obstacles. We preprocess these logs to get diverse set of frames with multiple obstacles. 
 
