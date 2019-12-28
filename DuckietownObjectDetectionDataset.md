@@ -34,10 +34,10 @@ This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. A
 </table>
 
 <p align="center">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="240">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/5.png" alt="Detection Dataset Sample" width="240">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/4.png" alt="Detection Dataset Sample" width="240">
-  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/3.png" alt="Detection Dataset Sample" width="240">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/6.png" alt="Detection Dataset Sample" width="500">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/5.png" alt="Detection Dataset Sample" width="500">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/4.png" alt="Detection Dataset Sample" width="500">
+  <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/images/dataset/3.png" alt="Detection Dataset Sample" width="500">
 </p>
 
 <a name="categories"/>
