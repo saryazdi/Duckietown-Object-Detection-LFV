@@ -79,7 +79,7 @@
 
 <a name="lanefollowing"/>
 <h2>Lane Following</h2>
-We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn more about the pure pursuit controller, check out <a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">this paper</a>. We use the following modifications on pure pursuit:
+We use a modified version of the pure pursuit controller for lane following which can be found <a href="https://github.com/saryazdi/pp-navigation">here</a>. To learn more about the pure pursuit controller, check out "<a href="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf">Implementation of the Pure Pursuit Path Tracking Algorithm</a>" by R. Craig Conlter. We use the following modifications on pure pursuit:
 <a name="targetpoint"/>
 <h3>Finding the Target Point</h3>
 We avoided computing the path by directly estimating our target point.
