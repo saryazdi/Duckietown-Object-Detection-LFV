@@ -30,7 +30,7 @@
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
-  <li><a href="#demo">Demo of Results</a></li>
+  <li><a href="#demo">Video Demos</a></li>
   <ul>
   <li><a href="#steady">Steady Lane Following</a></li>
   <li><a href="#fast">Fast Lane Following</a></li>
@@ -166,7 +166,7 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 </p>
 
 <a name="demo"/>
-<h3>Demo of Results</h3>
+<h3>Video Demos</h3>
 <ul>
   
   <a name="steady"/>
