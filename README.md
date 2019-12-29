@@ -92,7 +92,7 @@
       $ docker -H <DUCKIEBOT_NAME>.local exec -it demo_HW_lfv_start /bin/bash
       [CONTAINER]$ source /code/catkin_ws/devel/setup.bash
    
-   From here, you can view all the parameters of the pure pursuit algorithm by running:
+   From here, you can view all of the parameters of the pure pursuit algorithm by running:
       
       [CONTAINER]$ rosparam list | grep pure_pursuit
    
