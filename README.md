@@ -84,6 +84,7 @@
   <a name="paramtuning"/>
   <li><h3>Tuning the Parameters</h3></li>
       The parameters might need to be retuned on different versions of the simulator and on different duckiebot calibration configurations. Luckily, there is a pipeline in place to change the parameters as the code is running and see the effects right away. To do so, first get a bash in the container running your code.
+   
    If running in simulation, run:
       
       $ docker exec -it <CONTAINER_NAME> /bin/bash
