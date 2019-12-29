@@ -76,7 +76,7 @@
   
       $ docker -H <DUCKIEBOT_NAME>.local pull saryazdi/pp-navigation:v1-arm32v7
   
-  Run the container:
+  Run the following command on your computer to start the container on your duckiebot:
   
       $ dts duckiebot demo --demo_name HW_lfv_start --package_name pure_pursuit_lfv --duckiebot_name <DUCKIEBOT_NAME> --image saryazdi/pp-navigation:v1-arm32v7
       
