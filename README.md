@@ -81,6 +81,7 @@
   
       $ dts duckiebot demo --demo_name HW_lfv_start --package_name pure_pursuit_lfv --duckiebot_name <DUCKIEBOT_NAME> --image saryazdi/pp-navigation:v1-arm32v7
       
+  That's it! Your duckiebot should start moving within a minute or two.
   <a name="paramtuning"/>
   <li><h3>Tuning the Parameters</h3></li>
       The parameters might need to be retuned on different versions of the simulator and on different duckiebot calibration configurations. Luckily, there is a pipeline in place to change the parameters as the code is running and see the effects right away.
