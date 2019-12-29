@@ -10,6 +10,7 @@
     <li><a href="#preliminaries">Preliminaries</a></li>
     <li><a href="#simulation">Run in Simulation</a></li>
     <li><a href="#hardware">Run on Hardware</a></li>
+    <li><a href="#paramtuning">Tuning the Parameters</a></li>
   </ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
   <ul>
@@ -80,6 +81,24 @@
   
       $ dts duckiebot demo --demo_name HW_lfv_start --package_name pure_pursuit_lfv --duckiebot_name <DUCKIEBOT_NAME> --image saryazdi/pp-navigation:v1-arm32v7
       
+  <a name="paramtuning"/>
+  <li><h3>Tuning the Parameters</h3></li>
+      The parameters might need to be retuned on different versions of the simulator and on different duckiebot calibration configurations. Luckily, there is a pipeline in place to change the parameters as the code is running and see the effects right away. To do so, first get a bash in the container running your code.
+   If running in simulation, run:
+      
+      $ docker exec -it <CONTAINER_NAME> /bin/bash
+   If running on hardware, run:
+   
+      $ docker -H <DUCKIEBOT_NAME>.local exec -it demo_HW_lfv_start /bin/bash
+      [CONTAINER]$ source /code/catkin_ws/devel/setup.bash
+   
+   From here, you can view all the parameters of the pure pursuit algorithm by running:
+      
+      [CONTAINER]$ rosparam list | grep pure_pursuit
+   
+   And from that list, you can change the value of any parameter by running:
+   
+      [CONTAINER]$ rosparam set <PARAMETER_NAME> <PARAMETER_VALUE>
 </ul>
 
 <a name="lanefollowing"/>
