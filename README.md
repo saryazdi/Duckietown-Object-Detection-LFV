@@ -57,7 +57,7 @@
         
   Start docker container:
   
-      $ cd ../..
+      $ cd <LOCAL-DUCKIETOWN-DIRECTORY>
       $ docker-compose up
         
    Build and source the package within the container:
