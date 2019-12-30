@@ -150,7 +150,7 @@ We annotated our own real-world duckietown object detection dataset and trained 
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short1.gif" alt="Vehicle Avoidance Behind" style="width:100%">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/vehicle_avoidance_short2.gif" alt="Vehicle Avoidance Head-on" style="width:100%">
 </p>
-<b>Disclaimer</b>: We have not been able to get the GPU to work with docker yet, thus we are currently using the vehicle detection with image processing code on hardware as well. This is temporary to show that the pipeline is working correctly once we get the GPU working with docker.
+<b>Disclaimer</b>: We have not been able to get the GPU to work with docker yet, thus we are currently using the vehicle detection with image processing code on hardware as well. This is temporary to show that the pipeline is working correctly and we can integrate our trained deep learning model on hardware once we figure out how to get the GPU working with docker.
 <a name="object detection"/>
 <h3>Object Detection</h3>
 
