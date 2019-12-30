@@ -12,6 +12,13 @@
     <li><a href="#hardware">Run on Hardware</a></li>
     <li><a href="#paramtuning">Tuning the Parameters</a></li>
   </ul>
+  <li><a href="#videos">Videos of expected results</a></li>
+  <ul>
+  <li><a href="#steady">Steady Lane Following</a></li>
+  <li><a href="#fast">Fast Lane Following</a></li>
+  <li><a href="#lfv">Lane Following with Vehicle Avoidance</a></li>
+  <li><a href="#trainedmodel">Faster RCNN Object Detection</a></li>
+  </ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
   <ul>
     <li><a href="#targetpoint">Finding the Target Point</a></li>
@@ -31,13 +38,6 @@
      </ol>
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
-  </ul>
-  <li><a href="#videos">Videos</a></li>
-  <ul>
-  <li><a href="#steady">Steady Lane Following</a></li>
-  <li><a href="#fast">Fast Lane Following</a></li>
-  <li><a href="#lfv">Lane Following with Vehicle Avoidance</a></li>
-  <li><a href="#trainedmodel">Faster RCNN Object Detection</a></li>
   </ul>
 </ul>
 
@@ -103,6 +103,48 @@
    And from that list, you can change the value of any parameter by running:
    
       [CONTAINER]$ rosparam set <PARAMETER_NAME> <PARAMETER_VALUE>
+</ul>
+
+<a name="videos"/>
+<h2>Videos of expected results</h2>
+<ul>
+  
+  <a name="steady"/>
+  <li><a href="https://youtu.be/mL84DI1Ytk0">Steady Lane Following</a></li>
+  <b>14 tiles</b> in <b>30 seconds</b>: 3 left turn tiles, 1 right turn tile, 10 straight path tiles, 0 lane violations
+  <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
+    <p align="left">
+      <img align="left" height="150" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
+    </p>
+    </a>
+    <br clear="all" />
+    
+  <a name="fast"/>
+  <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast Lane Following</a></li>
+  <b>33 tiles</b> in <b>60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
+  <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
+    <p align="left">
+      <img align="left" height="150" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
+    </p>
+    </a>
+    <br clear="all" />
+    
+  <a name="lfv"/>
+  <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
+  <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
+    <p align="left">
+      <img align="left" height="150" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
+    </p>
+    </a>
+   <br clear="all" />
+   
+   <a name="trainedmodel"/>
+  <li><a href="https://www.youtube.com/watch?v=3jD02dxL6gg">Faster RCNN Object Detection</a></li>
+  <a href="https://youtu.be/3jD02dxL6gg" target="_blank">
+    <p align="left">
+      <img align="left" height="150" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
+    </p>
+    </a>
 </ul>
 
 <a name="lanefollowing"/>
@@ -196,45 +238,3 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
-
-<a name="videos"/>
-<h3>Videos</h3>
-<ul>
-  
-  <a name="steady"/>
-  <li><a href="https://youtu.be/mL84DI1Ytk0">Steady Lane Following</a></li>
-  <b>14 tiles</b> in <b>30 seconds</b>: 3 left turn tiles, 1 right turn tile, 10 straight path tiles, 0 lane violations
-  <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
-    <p align="left">
-      <img align="left" height="150" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
-    </p>
-    </a>
-    <br clear="all" />
-    
-  <a name="fast"/>
-  <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast Lane Following</a></li>
-  <b>33 tiles</b> in <b>60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
-  <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
-    <p align="left">
-      <img align="left" height="150" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
-    </p>
-    </a>
-    <br clear="all" />
-    
-  <a name="lfv"/>
-  <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
-  <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
-    <p align="left">
-      <img align="left" height="150" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
-    </p>
-    </a>
-   <br clear="all" />
-   
-   <a name="trainedmodel"/>
-  <li><a href="https://www.youtube.com/watch?v=3jD02dxL6gg">Faster RCNN Object Detection</a></li>
-  <a href="https://youtu.be/3jD02dxL6gg" target="_blank">
-    <p align="left">
-      <img align="left" height="150" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
-    </p>
-    </a>
-</ul>
