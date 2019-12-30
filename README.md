@@ -113,8 +113,8 @@
   <li><a href="https://youtu.be/mL84DI1Ytk0">Steady Lane Following</a></li>
   <b>14 tiles</b> in <b>30 seconds</b>: 3 left turn tiles, 1 right turn tile, 10 straight path tiles, 0 lane violations
   <a href="https://youtu.be/mL84DI1Ytk0" target="_blank">
-    <p align="left">
-      <img align="center" height="250" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
+    <p align="center">
+      <img align="center" height="300" src="https://img.youtube.com/vi/mL84DI1Ytk0/0.jpg"/>
     </p>
     </a>
     <br clear="all" />
@@ -123,8 +123,8 @@
   <li><a href="https://youtu.be/Kl7DO9rEVqQ">Fast Lane Following</a></li>
   <b>33 tiles</b> in <b>60 seconds</b>: 9 left turn tiles, 3 right turn tiles, 21 straight path tiles, 0 lane violations
   <a href="https://youtu.be/Kl7DO9rEVqQ" target="_blank">
-    <p align="left">
-      <img align="center" height="250" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
+    <p align="center">
+      <img align="center" height="300" src="https://img.youtube.com/vi/Kl7DO9rEVqQ/0.jpg"/>
     </p>
     </a>
     <br clear="all" />
@@ -132,8 +132,8 @@
   <a name="lfv"/>
   <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
-    <p align="left">
-      <img align="center" height="250" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
+    <p align="center">
+      <img align="center" height="300" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
     </p>
     </a>
    <br clear="all" />
@@ -141,8 +141,8 @@
    <a name="trainedmodel"/>
   <li><a href="https://www.youtube.com/watch?v=3jD02dxL6gg">Faster RCNN Object Detection</a></li>
   <a href="https://youtu.be/3jD02dxL6gg" target="_blank">
-    <p align="left">
-      <img align="center" height="250" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
+    <p align="center">
+      <img align="center" height="300" src="https://img.youtube.com/vi/3jD02dxL6gg/0.jpg"/>
     </p>
     </a>
 </ul>
