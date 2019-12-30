@@ -65,8 +65,8 @@ This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. A
       <tr><td>Category name</td><td>duckiebot</td></tr>
       <tr><td>Number of instances</td><td>2126</td></tr>
       <tr><td>Category id</td><td>3</td></tr>
-      <tr><td>Number of old Duckiebot instances</td><td>1419</td></tr>
-      <tr><td>Number of new Duckiebot instances</td><td>707</td></tr>
+      <tr><td>Number of old duckiebot instances</td><td>1419</td></tr>
+      <tr><td>Number of new duckiebot instances</td><td>707</td></tr>
 </table></li>
 </ol>
 <a name="collection"/>
