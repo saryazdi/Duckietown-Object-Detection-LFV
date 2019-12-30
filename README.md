@@ -146,6 +146,8 @@
     </p>
     </a>
 </ul>
+<br clear="all" />
+
 
 <a name="lanefollowing"/>
 <h2>Lane Following</h2>
