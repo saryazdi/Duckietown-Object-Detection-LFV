@@ -142,7 +142,7 @@ We avoided computing the path by directly estimating our target point.
 
 <a name="lanefollowingvehicles">
 <h2>Lane Following with Vehicles</h2>
-We annotated our own real-world duckietown object detection dataset and trained a deep learning model on it. However, since we also needed an object detector in simulation, we made a second object detector using image processing operators. We have yet to get the GPU to work with docker.
+We annotated our own real-world duckietown object detection dataset and trained a deep learning model on it. However, since we also needed an object detector in simulation, we made a second object detector using image processing operators. Disclaimer: Since we have not been able to get the GPU to work with docker yet, we are currently using the vehicle detection with image processing code on hardware as well. This is temporary to show that the pipeline is working correctly once we get the GPU working on docker.
   
 <br clear="all" />
 
