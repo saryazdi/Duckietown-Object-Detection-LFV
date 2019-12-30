@@ -5,6 +5,7 @@
   <a href="https://www.duckietown.org/"><img align="right" src="https://www.duckietown.org/wp-content/uploads/2018/05/duckie2-300x270.png" alt="Duckietown Logo" width="150"></a>
 </p>
 <ul>
+      <li><a href="#download">Download</a></li>
       <li><a href="#overview">Overview</a></li>
       <li><a href="#categories">Category Details</a></li>
       <ol>
@@ -14,8 +15,12 @@
       </ol>
       <li><a href="#collection">Data Collection Procedure</a></li>
       <li><a href="#annotation">Data Annotation Procedure</a></li>
-      <li><a href="#download">Download</a></li>
 </ul>
+
+<a name="download"/>
+
+## Download
+The dataset can be downloaded from <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
 
 <a name="overview"/>
 
@@ -83,7 +88,3 @@ We used OpenCV's free <a href="https://github.com/opencv/cvat">CVAT</a> tool to 
 <p align="center">
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/cvat_annotating.gif" alt="CVAT annotations">
 </p>
-<a name="download"/>
-
-## Download
-The dataset can be downloaded from <a href="https://drive.google.com/drive/folders/1cTBoKrXJb0kajBGxhuBxJpbKaotHPX7O">here</a>. We provide annotations and a sample script to load the annotations.
