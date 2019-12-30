@@ -90,7 +90,7 @@
    If running in simulation, first run the below command to get a bash in the container running your code (hint: if you do not know the container name, run ```docker ps``` to see a name list of all of the currently running containers):
       
       $ docker exec -it <CONTAINER_NAME> /bin/bash
-   If running on hardware, first run the below command to get a bash in the container running your code:
+   If running on hardware, first run the below command to get a bash in the container running your code and source the workspace:
    
       $ docker -H <DUCKIEBOT_NAME>.local exec -it demo_HW_lfv_start /bin/bash
       
