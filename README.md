@@ -60,7 +60,7 @@
       $ cd <LOCAL-DUCKIETOWN-DIRECTORY>
       $ docker-compose up
         
-   Build and source the package within the container:
+   Build the package within the container and source the workspace:
    
       [CONTAINER]$ catkin build --workspace catkin_ws
       [CONTAINER]$ source catkin_ws/devel/setup.bash
