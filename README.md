@@ -32,7 +32,7 @@
     <li><a href="#groundprojections">Modified Ground Projections</a></li>
     <li><a href="#vehicleavoidance">Vehicle Avoidance</a></li>
   </ul>
-  <li><a href="#demo">Video Demos</a></li>
+  <li><a href="#videos">Videos</a></li>
   <ul>
   <li><a href="#steady">Steady Lane Following</a></li>
   <li><a href="#fast">Fast Lane Following</a></li>
@@ -197,8 +197,8 @@ In this work, we use <a href="https://github.com/facebookresearch/detectron2">de
   <img src="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/blob/master/gifs/lfv_sim.gif"/>
 </p>
 
-<a name="demo"/>
-<h3>Video Demos</h3>
+<a name="videos"/>
+<h3>Videos</h3>
 <ul>
   
   <a name="steady"/>
