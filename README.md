@@ -84,7 +84,7 @@
   That's it! Your duckiebot should start moving within a minute or two.
   <a name="paramtuning"/>
   <li><h3>Tuning the Parameters</h3></li>
-      The parameters might need to be retuned on different versions of the simulator and on different duckiebot calibration configurations. Luckily, there is a pipeline in place to change the parameters as the code is running and see the effects right away.
+      The parameters might need to be retuned on different versions of the simulator and on different duckiebot calibration configurations. Luckily, there is a pipeline in place for changing the parameters as the code is running and see the effects right away.
    <br/><br/>
    
    If running in simulation, first run the below command to get a bash in the container running your code (hint: if you do not know the container name, run ```docker ps``` to see a name list of all of the currently running containers):
