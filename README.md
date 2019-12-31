@@ -97,9 +97,9 @@
       
       [CONTAINER]$ source /code/catkin_ws/devel/setup.bash
    
-   From here, you can view all of the parameters of the pure pursuit algorithm by running:
+   From here, you can view the names of all of the parameters related to pure pursuit and duckiebot detection by running:
       
-      [CONTAINER]$ rosparam list | grep pure_pursuit
+      [CONTAINER]$ rosparam list | grep -E 'pure_pursuit|duckiebot_detection'
    
    And from that list, you can change the value of any parameter by running:
    
