@@ -130,7 +130,13 @@
     <br clear="all" />
     
   <a name="lfv"/>
-  <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance</a></li>
+  <li><a href="https://youtu.be/d7fnCfaGW_U">Lane Following with Vehicle Avoidance</a></li>
+  <a href="https://youtu.be/d7fnCfaGW_U" target="_blank">
+    <p align="center">
+      <img align="center" height="300" src="https://img.youtube.com/vi/d7fnCfaGW_U/0.jpg"/>
+    </p>
+    </a>
+   <br clear="all" />
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
     <p align="center">
       <img align="center" height="300" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
