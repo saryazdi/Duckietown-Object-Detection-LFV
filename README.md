@@ -16,7 +16,8 @@
   <ul>
   <li><a href="#steady">Steady Lane Following</a></li>
   <li><a href="#fast">Fast Lane Following</a></li>
-  <li><a href="#lfv">Lane Following with Vehicle Avoidance</a></li>
+  <li><a href="#lfv1">Lane Following with Vehicle Avoidance 1</a></li>
+  <li><a href="#lfv2">Lane Following with Vehicle Avoidance 2</a></li>
   <li><a href="#trainedmodel">Faster RCNN Object Detection</a></li>
   </ul>
   <li><a href="#lanefollowing">Lane Following</a></li>
@@ -129,14 +130,17 @@
     </a>
     <br clear="all" />
     
-  <a name="lfv"/>
-  <li><a href="https://youtu.be/d7fnCfaGW_U">Lane Following with Vehicle Avoidance</a></li>
+  <a name="lfv1"/>
+  <li><a href="https://youtu.be/d7fnCfaGW_U">Lane Following with Vehicle Avoidance 1</a></li>
   <a href="https://youtu.be/d7fnCfaGW_U" target="_blank">
     <p align="center">
       <img align="center" height="300" src="https://img.youtube.com/vi/d7fnCfaGW_U/0.jpg"/>
     </p>
     </a>
    <br clear="all" />
+   
+   <a name="lfv2"/>
+  <li><a href="https://youtu.be/XYgBKyo5pQY">Lane Following with Vehicle Avoidance 2</a></li>
   <a href="https://youtu.be/XYgBKyo5pQY" target="_blank">
     <p align="center">
       <img align="center" height="300" src="https://img.youtube.com/vi/XYgBKyo5pQY/0.jpg"/>
