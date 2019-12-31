@@ -72,10 +72,12 @@ This dataset consists of 3 categories: traffic cones, duckies, and duckiebots. A
 </ol>
 
 <a name="scripts"/>
+
 ## Data Loading Scripts
 We provide some sample scripts for loading in the dataset <a href="https://github.com/saryazdi/Duckietown-Object-Detection-LFV/tree/master/OD_scripts">here</a>.
 
 <a name="collection"/>
+
 ## Data Collection Procedure
 
 In this work, we first identify the most prominent objects that we see on the roads of Duckietown: duckies, duckiebots and traffic cones. To begin our data collection procedure, we first identify all useful logs from <a href="http://logs.duckietown.org/">the Duckietown Logs Database</a> which contain the objects of interest. We then download and trim these logs so that the videos consist only of frames containing our objects of interest. Finally, we convert our videos to images (frames) while skipping some number of frames between each image to ensure that we get a diverse set of images. 
